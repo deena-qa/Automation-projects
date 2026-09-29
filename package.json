@@ -1,0 +1,17 @@
+{
+  "name": "playwright-qa-automation",
+  "version": "1.0.0",
+  "description": "UI and API test automation with Playwright, TypeScript and the Page Object Model",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "test:headed": "playwright test --project=ui --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
